@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="text-wrapper">
+            <h1>Welcome to the Stopwatch App</h1>
+            <p>Click the button below to explore our sleek and functional stopwatch application.</p>
+        </div>
+        <button id="start-stopwatch">Go to Stopwatch</button>
+    </div>
+
+    <script>
+        document.getElementById('start-stopwatch').addEventListener('click', function() {
+            window.location.href = 'index.html';  // Redirect to the stopwatch page
+        });
+    </script>
+</body>
+</html>
