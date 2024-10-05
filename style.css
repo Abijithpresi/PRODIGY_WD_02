@@ -1,7 +1,5 @@
-/* Importing fonts for elegant and modern typography */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Lora:wght@400;600&display=swap');
 
-/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Lora:wght@400;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -17,8 +15,6 @@ body {
     margin: 0;
     background: linear-gradient(135deg, #f5f7fa, #c3cfe2);  /* Soft, cool gradient background */
 }
-
-/* Welcome container with a polished, centered design */
 .welcome-container {
     text-align: center;
     background: #ffffff;
@@ -30,11 +26,10 @@ body {
 }
 
 .welcome-container:hover {
-    transform: translateY(-10px);  /* Slight float effect on hover */
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);  /* Enhanced shadow on hover */
+    transform: translateY(-10px);  
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); 
 }
 
-/* Styling for the heading */
 .welcome-container h1 {
     font-family: 'Lora', serif;
     font-size: 42px;
@@ -43,7 +38,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Styling for the description text */
+
 .welcome-container p {
     font-size: 18px;
     color: #666;
@@ -51,14 +46,13 @@ body {
     line-height: 1.6;
 }
 
-/* Button styles with polished, modern design */
 button {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     padding: 15px 40px;
     font-size: 18px;
     color: #ffffff;
-    background: linear-gradient(135deg, #007bff, #0056b3);  /* Button gradient */
+    background: linear-gradient(135deg, #007bff, #0056b3); 
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -66,23 +60,21 @@ button {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-/* Button hover effect for a premium feel */
 button:hover {
     background: linear-gradient(135deg, #0056b3, #003b8e);
-    transform: translateY(-5px);  /* Slight hover lift */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);  /* Shadow deepens on hover */
+    transform: translateY(-5px);  
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);  
 }
 
 button:active {
-    transform: translateY(2px);  /* Press-down effect */
+    transform: translateY(2px);  
 }
 
-/* Text wrapper for smooth entry */
+
 .text-wrapper {
     animation: fadeIn 1.5s ease-in-out;
 }
 
-/* Keyframes for smooth fade-in effect */
 @keyframes fadeIn {
     0% {
         opacity: 0;
